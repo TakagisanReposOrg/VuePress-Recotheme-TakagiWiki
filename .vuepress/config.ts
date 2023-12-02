@@ -23,6 +23,10 @@ export default defineUserConfig({
     series: {
       "/docs/": [
         {
+          text: "简介",
+          children: ["introduction"],
+        },
+        {
           text: "音乐",
           children: [
             {
@@ -141,7 +145,7 @@ export default defineUserConfig({
       ]
     },
     navbar: [
-      { text: "主页", link: "/" },
+      { text: "主页", icon: 'Home',link: "/" },
       { text: "资料", icon: 'Document',link: "/docs/introduction" },
       { text: "留言板", icon: 'Chat',link: "/other/message-board/" },
       { text: "关于", icon: 'Catalog',link: "/about/info/" },
